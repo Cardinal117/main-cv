@@ -1,23 +1,14 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
+import Selfie from "../assets/Picture2.jpeg";
 
 const Home = () => {
   return (
-    <section
-      id="home"
-      className="hero"
-      style={{
-        backgroundImage:
-          "ur[](https://static.vecteezy.com/system/resources/previews/017/293/788/non_2x/abstract-dark-blue-gradient-color-background-with-flowing-particles-digital-future-technology-concept-free-vector.jpg)",
-      }}
-    >
-      <div className="hero-overlay"></div>
+    <section id="home" className="hero">
+      <div className="hero-background"></div> {/* New background layer */}
+      <div className="hero-overlay"></div> {/* Dark tint overlay */}
       <div className="hero-content" data-aos="fade-up">
-        <img
-          src="/Picture2.jpeg"
-          alt="Jayden Liebenberg"
-          className="hero-photo"
-        />
+        <img src={Selfie} alt="Jayden Liebenberg" className="hero-photo" />
         <h1>Jayden Liebenberg</h1>
         <h2>Full-Stack Web Developer & IoT Enthusiast</h2>
         <p>

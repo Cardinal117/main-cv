@@ -12,7 +12,7 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import Contact from "./components/Contact.jsx";
-import Logo from "./assets/Logo-main-horizontal_noBG.png"
+import Logo from "/assets/Logo-main-horizontal_noBG.png"
 
 const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,7 +29,6 @@ const NavBar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
 
   return (
     <nav className="navbar">
@@ -107,7 +106,7 @@ const NavBar = () => {
 const Footer = () => (
   <footer className="footer">
     <img
-      src={Logo}
+      src="/Logo-main-horizontal_noBG.png"
       alt="CardCore"
       className="footer-logo"
     />
@@ -150,7 +149,6 @@ const MainLayout = () => {
     </>
   );
 };
-
 const App = () => {
   return (
     <Router>
@@ -159,6 +157,6 @@ const App = () => {
       <Footer />
     </Router>
   );
-};
+}; 
 
 export default App;

@@ -1,9 +1,14 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
   const [status, setStatus] = useState('');
+
+  // Initialize EmailJS with public key once on mount
+  useEffect(() => {
+    emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -11,10 +16,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-        form.current,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        form.current
+        // No need to pass public key here anymore - it's initialized globally
       )
       .then(
         () => {
@@ -24,7 +29,7 @@ const Contact = () => {
         },
         (error) => {
           setStatus('Failed to send message. Try again.');
-          console.error(error);
+          console.error('EmailJS error:', error.text || error);
         }
       );
   };

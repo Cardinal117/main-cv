@@ -1,4 +1,7 @@
 import React from 'react';
+import BlackEagleLogo from "../assets/BlackEagleLogo.png"
+import C2CLogo from "../assets/LogoC2C.jpg"
+import KreatifMarkLogo from "../assets/KreatifMark.jpg"
 
 const Experience = () => {
   return (
@@ -8,7 +11,7 @@ const Experience = () => {
         <div className="cards-grid">
           <div className="card" data-aos="fade-up">
             <div className="experience-header">
-              <img src="/LogoC2C.jpg" alt="C2C Yachting Logo" className="experience-logo" />
+              <img src={C2CLogo} alt="C2C Yachting Logo" className="experience-logo" />
               <div>
                 <h5>Freelance Web Developer - C2C Yachting (Australia)</h5>
                 <p className="date">2025</p>
@@ -26,7 +29,7 @@ const Experience = () => {
 
           <div className="card" data-aos="fade-up" data-aos-delay="100">
             <div className="experience-header">
-              <img src="/BlackEagleLogo.png" alt="Black Eagle Brewery Logo" className="experience-logo" />
+              <img src={BlackEagleLogo} alt="Black Eagle Brewery Logo" className="experience-logo" />
               <div>
                 <h5>Black Eagle Brewery - Bartender & POS Operator</h5>
                 <p className="date">2025–Present</p>
@@ -40,7 +43,7 @@ const Experience = () => {
 
           <div className="card" data-aos="fade-up" data-aos-delay="200">
             <div className="experience-header">
-              <img src="/KreatifMark.jpg" alt="POS System Icon" className="experience-logo" />
+              <img src={KreatifMarkLogo} alt="POS System Icon" className="experience-logo" />
               <div>
                 <h5>Market - Retail & Bar Staff</h5>
                 <p className="date">2024–2025</p>

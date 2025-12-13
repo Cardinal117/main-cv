@@ -1,4 +1,5 @@
 import React from "react";
+import Selfie from "../assets/Picture2.jpeg"
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
         <h3>About Me</h3>
         <div className="about-grid">
           <img
-            src="/Picture2.jpeg"
+            src={Selfie}
             alt="Jayden Liebenberg"
             className="about-photo"
             data-aos="fade-left"

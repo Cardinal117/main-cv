@@ -1,4 +1,6 @@
 import React from "react";
+import TeneoLogo from "../assets/TeneoLogo.jpeg";
+import HyperionDevLogo from "../assets/HyperionDevLogo.jpg";
 
 const Education = () => {
   return (
@@ -9,7 +11,7 @@ const Education = () => {
           <div className="card" data-aos="fade-up">
             <div className="education-header">
               <img
-                src="/HyperionDevLogo.jpg"
+                src={HyperionDevLogo}
                 alt="HyperionDev Logo"
                 className="education-logo"
               />
@@ -40,7 +42,7 @@ const Education = () => {
           <div className="card" data-aos="fade-up" data-aos-delay="100">
             <div className="education-header">
               <img
-                src="/TeneoLogo.jpeg"
+                src={TeneoLogo}
                 alt="IEB Teneo Online School Logo"
                 className="education-logo"
               />
