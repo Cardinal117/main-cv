@@ -1,6 +1,13 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import HangManScreenshot from "../assets/HangManSCR.png";
+import WebsiteShowcaseScreenShot from "../assets/WebsiteShowCaseSCR.png";
+import JarvisCredentialsVaultSCR from "../assets/JarvisCredentialsVaultSCR.png";
+import MontyHallReactAppSCR from "../assets/MontyHallReactAppSCR.png";
+import BackToJSSCR from "../assets/BackToJSSCR.png";
+import CarAPISCR from "../assets/CarAPISCR.png";
+import SimpleWebsiteSCR from "../assets/SimpleWebsiteSCR.png";
 
 const Projects = () => {
   return (
@@ -26,7 +33,7 @@ const Projects = () => {
             <SwiperSlide>
               <div className="card project-card">
                 <img
-                  src="https://via.placeholder.com/600x400/16192b/7ecbff?text=JARVIS+Credential+Vault"
+                  src={JarvisCredentialsVaultSCR}
                   alt="JARVIS Credential Vault"
                 />
                 <h5>JARVIS Credential Vault</h5>
@@ -52,7 +59,7 @@ const Projects = () => {
             <SwiperSlide>
               <div className="card project-card">
                 <img
-                  src="https://via.placeholder.com/600x400/16192b/7ecbff?text=Website+Showcase"
+                  src={WebsiteShowcaseScreenShot}
                   alt="Website Showcase"
                 />
                 <h5>Website Showcase</h5>
@@ -88,7 +95,7 @@ const Projects = () => {
             <SwiperSlide>
               <div className="card project-card">
                 <img
-                  src="https://via.placeholder.com/600x400/16192b/7ecbff?text=Hangman+Game"
+                  src={HangManScreenshot}
                   alt="Hangman Game"
                 />
                 <h5>Hangman Game</h5>
@@ -121,7 +128,7 @@ const Projects = () => {
             <SwiperSlide>
               <div className="card project-card">
                 <img
-                  src="https://via.placeholder.com/600x400/16192b/7ecbff?text=Monty+Hall"
+                  src={MontyHallReactAppSCR}
                   alt="Monty Hall React App"
                 />
                 <h5>Monty Hall React App</h5>
@@ -154,7 +161,7 @@ const Projects = () => {
             <SwiperSlide>
               <div className="card project-card">
                 <img
-                  src="https://via.placeholder.com/600x400/16192b/7ecbff?text=CarListener+API"
+                  src={CarAPISCR}
                   alt="CarListener API"
                 />
                 <h5>CarListener API</h5>
@@ -189,33 +196,7 @@ const Projects = () => {
             <SwiperSlide>
               <div className="card project-card">
                 <img
-                  src="https://via.placeholder.com/600x400/16192b/7ecbff?text=GitHub+Explorer"
-                  alt="GitHub User & Repository Explorer"
-                />
-                <h5>GitHub User & Repository Explorer</h5>
-                <p>
-                  Developed a web app to fetch and display GitHub user and
-                  repository data using the GitHub API.
-                </p>
-                <p>
-                  Utilized JavaScript for asynchronous API calls and dynamic UI
-                  rendering.
-                </p>
-                <a
-                  href="https://github.com/Cardinal117/github-user-searcher/tree/main/GitHub_user_repo_explorer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary"
-                >
-                  GitHub
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="card project-card">
-                <img
-                  src="https://via.placeholder.com/600x400/16192b/7ecbff?text=Back+to+JS"
+                  src={BackToJSSCR}
                   alt="Back to JavaScript Website"
                 />
                 <h5>Back to JavaScript Website</h5>
@@ -250,7 +231,7 @@ const Projects = () => {
             <SwiperSlide>
               <div className="card project-card">
                 <img
-                  src="https://via.placeholder.com/600x400/16192b/7ecbff?text=Simple+Website"
+                  src={SimpleWebsiteSCR}
                   alt="Simple Website"
                 />
                 <h5>Simple Website</h5>
