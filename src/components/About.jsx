@@ -16,24 +16,25 @@ const About = () => {
           <div className="about-text" data-aos="fade-right">
             <p>
               I am a Full-Stack Web Developer and IoT Enthusiast having just
-              completed the intensive bootcamp, at HyperionDev.F
+              completed the intensive bootcamp, at HyperionDev and some parts of
+              the Complete Web Dev at ZTM Academy(Great place to study IT btw)
             </p>
             <p>
               I enjoy transforming concepts into easy-to-use applications by
-              utilizing contemporary technologies such, as React, Express,
-              MongoDB and others.
+              using contemporary, but occasionally frustrating, technologies
+              such, as React, Express, MongoDB and others.
             </p>
             <p>
-              My work encompasses credential storage systems, interactive gaming
-              and APIs demonstrating my capability to develop comprehensive
-              solutions. My freelance portfolio involves creating websites, such
-              as those, for yachting services.
+              My work includes credential storage systems, interactive gaming
+              websites and APIs demonstrating my capability to develop
+              comprehensive solutions. My freelance portfolio involves creating
+              websites and connecting google forms to sheet scrip apps.
             </p>
             <p>
-              When I'm not coding, you'll find me cycling, paddling, gaming, or
-              exploring new tech. I'm adaptable, quick to learn, and always
-              excited about new challenges. Open to freelance gigs or full-time
-              opportunities — let's connect!
+              My time away from my computer will be cycling, paddling, gaming,
+              or exploring new tech. I'm adaptable, quick to learn and always
+              excited about new challenges. Open to freelance new gigs or
+              full-time opportunities, contact me below!
             </p>
           </div>
         </div>
