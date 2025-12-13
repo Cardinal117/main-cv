@@ -1,5 +1,5 @@
 import React from "react";
-import Selfie from "../assets/Picture2.jpeg"
+import Selfie from "../assets/Picture2.jpeg";
 
 const About = () => {
   return (
@@ -15,18 +15,19 @@ const About = () => {
           />
           <div className="about-text" data-aos="fade-right">
             <p>
-              I'm a passionate Full-Stack Web Developer and IoT enthusiast,
-              recently graduated from HyperionDev's immersive bootcamp.
+              I am a Full-Stack Web Developer and IoT Enthusiast having just
+              completed the intensive bootcamp, at HyperionDev.F
             </p>
             <p>
-              I love turning ideas into functional, user-friendly applications
-              using modern technologies like React, Express, MongoDB, and more.
+              I enjoy transforming concepts into easy-to-use applications by
+              utilizing contemporary technologies such, as React, Express,
+              MongoDB and others.
             </p>
             <p>
-              My projects range from secure credential vaults to interactive
-              games and APIs, showcasing my ability to build end-to-end
-              solutions. Freelance experience includes building professional
-              websites (like yachting service sites).
+              My work encompasses credential storage systems, interactive gaming
+              and APIs demonstrating my capability to develop comprehensive
+              solutions. My freelance portfolio involves creating websites, such
+              as those, for yachting services.
             </p>
             <p>
               When I'm not coding, you'll find me cycling, paddling, gaming, or
