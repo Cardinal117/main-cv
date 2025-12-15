@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <section id="projects" className="page-section" data-aos="fade-up">
       <div className="container">
-        <h3>Projects</h3>
+        <h3>Fun Projects</h3>
 
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}

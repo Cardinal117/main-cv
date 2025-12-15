@@ -12,7 +12,8 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import Contact from "./components/Contact.jsx";
-import Logo from "/assets/Logo-main-horizontal_noBG.png"
+import WhatsappBubble from "../components/WhatsappBubble.jsx";
+import Logo from "/assets/Logo-main-horizontal_noBG.png";
 
 const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -34,11 +35,7 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <HashLink to="#home" className="nav-logo">
-          <img
-            src={Logo}
-            alt="CardCore Logo"
-            className="nav-logo-img"
-          />
+          <img src={Logo} alt="CardCore Logo" className="nav-logo-img" />
           <span className="nav-logo-text">| Jayden Liebenberg</span>
         </HashLink>
 
@@ -154,9 +151,10 @@ const App = () => {
     <Router>
       <NavBar />
       <MainLayout />
+      <WhatsappBubble />
       <Footer />
     </Router>
   );
-}; 
+};
 
 export default App;

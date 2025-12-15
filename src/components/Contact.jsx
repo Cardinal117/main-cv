@@ -59,16 +59,6 @@ const Contact = () => {
             </ul>
           </div>
         </div>
-
-        {/* Floating WhatsApp Bubble */}
-        <a
-          href="https://wa.me/27836020904?text=Hi%20Jayden%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20chat!"
-          className="whatsapp-float"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-        </a>
       </div>
     </section>
   );

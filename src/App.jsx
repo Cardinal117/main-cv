@@ -157,6 +157,17 @@ const App = () => {
       <NavBar />
       <MainLayout />
       <Footer />
+
+      {/* Floating WhatsApp Bubble - appears on ALL pages */}
+      <a
+        href="https://wa.me/27836020904?text=Hi%20Jayden%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20chat!"
+        className="whatsapp-bubble"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with Jayden on WhatsApp"
+      >
+        <i className="fab fa-whatsapp"></i>
+      </a>
     </Router>
   );
 };
