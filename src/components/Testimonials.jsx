@@ -5,7 +5,7 @@ const Testimonials = () => {
     <section id="testimonials" className="page-section" data-aos="fade-up">
       <div className="container">
         <h3>Testimonials</h3>
-        <div className="testimonials-grid">
+        {/* <div className="testimonials-grid">
           <div
             className="card testimonial-card"
             data-aos="fade-up"
@@ -49,7 +49,7 @@ const Testimonials = () => {
               <strong>Anonymous Client</strong> — Tech Enthusiast
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
